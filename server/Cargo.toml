@@ -1,0 +1,21 @@
+[package]
+name = "server"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+common = { workspace = true }
+clap = { workspace = true }
+rmp = { workspace = true }
+rmp-serde = { workspace = true }
+rmpv = { workspace = true }
+rustls = { workspace = true }
+serde = { workspace = true }
+tokio = { workspace = true }
+tokio-rustls = { workspace = true }
+serde_json = { workspace = true }
+rustls-pemfile = { workspace = true }
+argon2 = { version = "0.5.3", features = ["std"] }
+openssl = { workspace = true }
+rand = "0.10.1"
+is-root = "0.1.3"

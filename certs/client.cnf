@@ -1,0 +1,13 @@
+[req]
+distinguished_name = dn
+prompt = no
+
+[dn]
+CN = client
+
+[v3_client]
+basicConstraints = CA:FALSE
+keyUsage = digitalSignature
+extendedKeyUsage = clientAuth
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid,issuer

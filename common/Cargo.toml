@@ -1,0 +1,13 @@
+[package]
+name = "common"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde = { workspace = true }
+rustls-pemfile = { workspace = true }
+rustls = { workspace = true }
+tokio = { workspace = true }
+rmp = { workspace = true }
+rmp-serde = { workspace = true }
+tokio-rustls = { workspace = true }
